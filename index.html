@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Rusdi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- navbar -->
+    <section id="home" class="main-header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a class="navbar-logo">PORTFOLIO</a>
+                <button id="navbar-toggle" class="navbar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                </button>
+                <ul id="hidden" class="navbar-menu">
+                    <li><a href="#home" class="nav-link activee">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#activity" class="nav-link">Activity</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- hero -->
+         <div class="container-card">
+            <div class="about-profile">
+                <div class="card">
+                    <img src="profile.png" alt="muhammad rusdi" class="profile-pic">
+                </div>  
+                <div class="name-profile">Muhammad Rusdi</div>        
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- about -->
+
+
+    <section id="about" class="about-text-container">
+        <div class="text-and-image-wrapper">
+            <img src="profile-about.png" alt="muhammad rusdi" class="about-main-image">
+                <div class="about-text-content">
+                    <span class="discover-text">discover</span>
+                        <h2>About Me</h2>
+                        <p>My name is Muhammad Rusdi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec dignissim nunc. Aenean aliquet, dolor vel vulputate volutpat, justo sem aliquam tortor, vel volutpat justo justo in justo.</p>
+                        <div class="about-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Name</span>
+                                <span class="detail-value">Muhammad Rusdi</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Address</span>
+                                <span class="detail-value">Bandung</span>
+                            </div>
+                        </div>
+                        <a href="cv.html" class="more-link">More about me ></a>
+                        </div>
+            </div>
+    </section>
+
+<!-- activity -->
+
+    <section id="activity" class="activity-section">
+        <div class="activity-judul">Activity</div>
+
+        <div class="kegiatan">
+            <div class="kegiatan-btn" data-target="camping-hiking">
+                <img src="iconkeg/camping.png" alt="aman" class="camping">Hiking & Camping
+            </div>
+            <div class="kegiatan-btn" data-target="up-skill">
+                <img src="iconkeg/upskills.png" alt="aman" class="camping">Up Skills
+            </div>
+            <div class="kegiatan-btn" data-target="lain-lain">
+                <img src="iconkeg/camping.png" alt="aman" class="camping">Lain-Lain
+            </div>
+        </div>
+
+        <!-- hidden kegiatan hiking -->
+         <div class="container-hidden-kegiatann" id="camping-hiking" style="display: none;">
+            <div class="hidden-camping">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Campcer</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="hiddenkeg/gunungputri.jpeg">
+                        <img src="hiddenkeg/gunungputri2.jpeg">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Karang Papak</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="hiddenkeg/karangpapak.jpeg">
+                        <img src="hiddenkeg/karangpapak2.jpeg">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Batu Payung</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="hiddenkeg/batupayung.jpeg">
+                        <img src="hiddenkeg/batupayung2.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-hiking">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Upas Hill</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="hiddenkeg/upashill.jpeg">
+                        <img src="hiddenkeg/upashill2.jpeg">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Manglayang</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="hiddenkeg/manglayang.jpeg">
+                        <img src="hiddenkeg/manglayang2.jpeg">
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+         <!-- hidden kegiatan upskill -->
+        <div class="container-hidden-kegiatann" id="up-skill" style="display: none;">
+            <div class="hidden-camping">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill2</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill3</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-hiking">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Up skill4</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill5</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+         </div>
+
+ <!-- lain lain -->
+         <div class="container-hidden-kegiatann" id="lain-lain" style="display: none;">
+            <div class="hidden-camping">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill2</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill3</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-hiking">
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>Up skill4</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="kemcer">
+                    <div class="keterangan">
+                        <h2>up skill5</h2>
+                    </div>
+                    <div class="fotofoto">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+
+<!-- canon -->
+
+        <div class="activity-breadcrumbs">
+            <span id="photography"><a class="active">Photography</a></span>
+            <span> <a href="#futsal" class="futsal">> Futsal</a> </span>
+        </div>
+        <div class="activity-header">
+            <h3>CANON 700D</h3>
+            <p>With 50 mm Lens</p>
+        </div>
+        <div class="box">
+            <div class="boxpoto">
+                <div class="foto foto1"><img class="IMG_4181" src="/photografy/IMG_4181.jpg" alt="rusdi"></div>
+                <div class="foto foto2"><img class="IMG_3101" src="photografy/IMG_3101.jpg" alt="rusdi"></div>
+                <div class="foto foto3"><img class="IMG_3846" src="photografy/IMG_3846.jpg" alt="rusdi"></div>
+                <div class="foto foto4"><img class="IMG_4105" src="photografy/IMG_4105.jpg" alt="rusdi"></div>
+                <div class="foto foto5"><img class="IMG_3736" src="photografy/IMG_3736.jpg" alt="rusdi"></div>
+                <div class="foto foto6"><img class="IMG_4108" src="photografy/IMG_4108.jpg" alt="rusdi"></div>
+            </div>   
+            <div class="boxpoto2">
+                <div class="poto poto1"><img class="img_1" src="photography/1.jpg" alt=""></div>
+                <div class="poto poto2"><img src="photography/2.jpg" alt="" class="img_2"></div>
+                <div class="poto poto3"><img src="photography/3.jpg" alt="" class="img_3"></div>
+                <div class="poto poto4"><img src="photography/4.jpg" alt="" class="img_4"></div>
+                <div class="poto poto5"><img src="photography/5.jpg" alt="" class="img_5"></div>
+                <div class="poto poto6"><img src="photography/6.jpg" alt="" class="img_6"></div>
+                <div class="poto poto7"><img src="photography/7.jpg" alt="" class="img_7"></div>
+                <div class="poto poto8"><img src="photography/8.jpg" alt="" class="img_8"></div>
+                <div class="poto poto9"><img src="photography/9.jpg" alt="" class="img_9"></div>
+            </div>
+        </div>
+    
+
+        <!-- futsal -->
+        <!-- <section class="activity-section"> -->
+        <div class="activity-breadcrumbs">
+            <span id="futsal"><a href="#photography" class="photography">Photography</a></span>
+            <span>><a class="actives"> Futsal</a></span>
+        </div>
+            <div class="carousel">
+                <img class="gallery" src="futsal/futsal1.jpeg" alt="rusdi" >
+                <img class="gallery" src="futsal/futsal2.jpeg" alt="rusdi" >
+                <img class="gallery" src="futsal/futsal3.jpeg" alt="rusdi" >
+                <img class="gallery" src="futsal/futsal4.jpeg" alt="rusdi" >
+            </div>
+        <div class="sekat"></div>
+    </section>
+        <!-- contact -->
+
+    <section id="contact" class="contact-section">
+        <div class="contact-header">
+            <h3>Contact</h3>
+        </div>
+        <div class="contact-items">
+            <a href="https://wa.me/qr/6JNVFL27QRFSL1" class="contact-item">
+                <div class="fa-brands fa-square-whatsapp"></div>   
+                <span class="contact-text">Whatsapp</span>
+            </a>
+            <a href="https://www.instagram.com/rusdi_mu?igsh=MWg1ZTVudXF4ZDRtZA==" class="contact-item">
+                <div class="fa-brands fa-square-instagram"></div>
+                <span class="contact-text">Instagram</span>
+            </a>
+            <a href="https://www.tiktok.com/@kage32144?_t=ZS-8za87JWgZA9&_r=1" class="contact-item">
+                <div class="fa-brands fa-tiktok"></div>
+                <span class="contact-text">Tiktok</span>
+            </a>
+        </div>
+        <div class="bottom"></div>
+    </section>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card, .name-profile, .about-main-image"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
+	});
+    </script>
+</body>
+</html>
