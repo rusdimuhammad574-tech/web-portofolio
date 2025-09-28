@@ -701,7 +701,7 @@ p {
 .contact-section {
     background-color: var(--contact-bg);
     /* padding: 50px 5%; */
-    height: 100vh;
+    height: 50vh;
 
 }
 
@@ -785,3 +785,4 @@ p {
     }
 
 }
+
