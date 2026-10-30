@@ -188,7 +188,7 @@ body {
     align-items: center;
     width: 80%; 
     height: 100vh;
-    font-size: 8.5rem;
+    font-size: clamp(44px, 30.5vw, 50px);
     font-family: poppins;
 }
 
