@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  padding-bottom: 4px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.item-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.title-normal {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #e0e0e0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title-normal a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+li {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+
+.date {
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.project-box {
+  margin-bottom: 30px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 320px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.image-placeholder img{
+  cursor: pointer;
+  width: 70%;
+  
+}
+
+.linkedin-link {
+  margin-top: 25px;
+}
+
+.linkedin-link a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.linkedin-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsif untuk layar hp/kecil */
+@media (max-width: 600px) {
+  .item {
+    flex-direction: column;
+  }
+  .date {
+    text-align: left;
+    margin-top: 4px;
+    color: #aaaaaa;
+  }
+  .image-placeholder {
+    height: 200px;
+  }
+}
